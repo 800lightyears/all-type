@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "checking the variable type",
   "main": "index.js",
-  "author": "800LightYears",
+  "author": "800lightyears",
   "keywords": [
     "type",
     "util",
@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/800LightYears/all-type.git"
+    "url": "git+https://github.com/800lightyears/all-type.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/800LightYears/all-type/issues"
+    "url": "https://github.com/800lightyears/all-type/issues"
   },
-  "homepage": "https://github.com/800LightYears/all-type#readme",
+  "homepage": "https://github.com/800lightyears/all-type#readme",
   "devDependencies": {
     "chai": "^4.3.4",
     "mocha": "^9.1.3",
