@@ -1,0 +1,29 @@
+{
+  "name": "all-type",
+  "version": "1.0.0",
+  "description": "checking the variable type",
+  "main": "index.js",
+  "author": "800LightYears",
+  "keywords": [
+    "type",
+    "util",
+    "isType"
+  ],
+  "scripts": {
+    "test": "mocha *.test.js --reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/800LightYears/all-type.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/800LightYears/all-type/issues"
+  },
+  "homepage": "https://github.com/800LightYears/all-type#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "mochawesome": "^7.0.1"
+  }
+}
