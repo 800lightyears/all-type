@@ -20,6 +20,9 @@ const TYPES = {
   Error: new Error(),
   ArrayBuffer: new ArrayBuffer(1),
   Function: () => {},
+
+  // specific type
+  NaN: NaN,
 }
 
 exports.TYPES = TYPES

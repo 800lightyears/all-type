@@ -32,6 +32,7 @@ is.WeakMap(new WeakMap()) // true
 is.Error(new Error()) // true
 is.ArrayBuffer(new ArrayBuffer(1)) // true
 is.Function(() => {}) // true
+is.NaN(NaN) // true
 ```
 
 ### License
