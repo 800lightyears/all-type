@@ -1,6 +1,6 @@
 {
   "name": "all-type",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "checking the variable type",
   "main": "index.js",
   "author": "800lightyears",

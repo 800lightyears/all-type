@@ -1,5 +1,4 @@
 const TYPES = {
-  // primivates
   String: '',
   Number: 0,
   BigInt: 1n,
@@ -7,8 +6,6 @@ const TYPES = {
   Null: null,
   Undefined: undefined,
   Symbol: Symbol(),
-
-  // reference type
   Array: [],
   Object: {},
   RegExp: new RegExp(),
@@ -18,10 +15,17 @@ const TYPES = {
   Map: new Map(),
   WeakMap: new WeakMap(),
   Error: new Error(),
-  ArrayBuffer: new ArrayBuffer(1),
+  ArrayBuffer: new ArrayBuffer(32),
+  DataView: new DataView(new ArrayBuffer(32)),
+  Int8Array: new Int8Array(new ArrayBuffer(32)),
+  Uint8Array: new Uint8Array(new ArrayBuffer(32)),
+  Int16Array: new Int16Array(new ArrayBuffer(32)),
+  Uint16Array: new Uint16Array(new ArrayBuffer(32)),
+  Int32Array: new Int32Array(new ArrayBuffer(32)),
+  Uint32Array: new Uint32Array(new ArrayBuffer(32)),
+  Float32Array: new Float32Array(new ArrayBuffer(32)),
+  Float64Array: new Float64Array(new ArrayBuffer(32)),
   Function: () => {},
-
-  // specific type
   NaN: NaN,
 }
 
